@@ -413,6 +413,19 @@ input:required {
       .section-heading-2 h4 {
         font-size: 30px; } }
 
+.section-heading-2 h6 {
+    font-size: 24px;
+    color: #5d5e8d;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    @media only screen and (max-width: 767px) {
+      .section-heading-2 h6 {
+        font-size: 26px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .section-heading-2 h6 {
+        font-size: 30px; } }
+
 .section-heading-3 {
   position: relative;
   z-index: 1;
@@ -937,7 +950,6 @@ input:required {
       font-size: 90px;
       color: #ffffff;
       letter-spacing: 0.5px;
-      text-transform: uppercase;
       font-weight: 700; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-welcome-slide .welcome-text-two h2 {
@@ -1369,11 +1381,13 @@ input:required {
   z-index: 1;
   overflow: hidden;
   margin-bottom: 40px;
-  border-radius: 10px; }
+  border-radius: 10px; 
+}
   .single-speaker-area .speaker-single-thumb {
     position: relative;
     z-index: 1;
-    border-radius: 10px; }
+    border-radius: 10px;
+  }
     .single-speaker-area .speaker-single-thumb img {
       -webkit-transition-duration: 1500ms;
       -o-transition-duration: 1500ms;
@@ -2433,7 +2447,8 @@ input:required {
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
-        padding: 0 0 30px 0; } }
+        padding: 0 0 30px 0; 
+      margin-left: 30px;} }
     .single-schedule-area .schedule-time-place p {
       color: #ffffff;
       margin-bottom: 0;
